@@ -1,6 +1,10 @@
-{\rtf1\ansi\ansicpg1252\cocoartf2636
-\cocoatextscaling0\cocoaplatform0{\fonttbl}
-{\colortbl;\red255\green255\blue255;}
-{\*\expandedcolortbl;;}
-\margl1440\margr1440\vieww11520\viewh8400\viewkind0
-}
+## 顶底指标
+-----------------------------
+# Illquid Supply (Change) | 非流动性供应
+
+
+# NVT 比率
+
+# Stablecoin Supply Ratio ｜ 稳定币供应比率
+
+# Accounts holding 1+ BTC | 持仓大户（1+ BTC）数量
