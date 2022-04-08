@@ -2,7 +2,6 @@
 -----------------------------
 ## Illquid Supply (Change) | 非流动性供应
 
-
 ## NVT 比率
 
 ## Stablecoin Supply Ratio ｜ 稳定币供应比率
