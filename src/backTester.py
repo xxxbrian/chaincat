@@ -40,6 +40,7 @@ def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = T
                     if purchasedMode == "Short":
                         indexVal = _calcReturns(indexVal, purchaseVal, currData[i], "Short")
                         purchasedMode = None
+                        purchaseVal = 0.00
                     elif purchasedMode == None:
                         purchasedMode = "Long"
                         purchaseVal = currData[i]
@@ -52,6 +53,7 @@ def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = T
                     if purchasedMode == "Long":
                         indexVal = _calcReturns(indexVal, purchaseVal, currData[i], "Long")
                         purchasedMode = None
+                        purchaseVal = 0.00
                     elif purchasedMode == None:
                         purchasedMode = "Short"
                         purchaseVal = currData[i]
