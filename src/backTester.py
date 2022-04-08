@@ -1,4 +1,10 @@
-#backTest(
+# Apr_08 Backtester for single-line data
+
+# Instructions:
+#
+# from backTester import backTest
+#
+# backTest(
 #    list_of_values {python.list}, 
 #    list_of_dates {python.list},
 #    strategy {function(list) -> Any},
@@ -8,7 +14,7 @@
 #    strategy_null_pred [optional = None],
 #    backtest_interval [optional = 1{days}],
 #    for_profit [optional = True]
-#)
+# )
 
 def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = True, falseVal = False, nullVal = None, testFreq = 1, for_profit = True):
     
