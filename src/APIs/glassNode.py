@@ -9,9 +9,9 @@ import numpy as np
 #
 # getAPI(
 #    symbol {string}, 
-#    APIKey {string},
 #    dataCat {string},
 #    dataName {string}, 
+#    APIKey [string, optional = ''],
 #    currency [string, optional = False, use only applicable to data type]
 #    interval [string, optional = "24h"],
 #    time_end [int, optional = 0{years}, aka today],
@@ -23,7 +23,7 @@ import numpy as np
 # dataCat = "supply"
 # dataName = "illiquid_sum"
 
-def getAPI(symbol, APIKey, dataCat, dataName, currency = False, interval = "24h", time_end = 0, time_start = 1):
+def getAPI(symbol, dataCat, dataName, APIKey = '27B7d366MLdyKjAIP15Og5BncOj', currency = False, interval = "24h", time_end = 0, time_start = 1):
     
     start_date = (time.time() - (time_start * 31536000))
     end_date = (time.time() - - (time_end * 31536000))

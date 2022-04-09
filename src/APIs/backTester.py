@@ -13,10 +13,10 @@
 #    strategy_dec_pred [optional = False],
 #    strategy_null_pred [optional = None],
 #    backtest_interval [optional = 1{days}],
-#    for_profit [optional = True]
+#    for_profit [optional = False]
 # ) -> return 0
 
-def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = True, falseVal = False, nullVal = None, testFreq = 1, for_profit = True):
+def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = True, falseVal = False, nullVal = None, testFreq = 1, for_profit = False):
     
     if dataVal == 0 or dataDate == 0 or strategy == 0 or startDate == 0:
         print("Error: dataVal, dataDate, strategy, startDate must be defined")
