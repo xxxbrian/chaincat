@@ -14,7 +14,7 @@
 #    strategy_null_pred [optional = None],
 #    backtest_interval [optional = 1{days}],
 #    for_profit [optional = True]
-# )
+# ) -> return 0
 
 def backTest(dataVal = 0, dataDate = 0, strategy = 0, startDate = 0, trueVal = True, falseVal = False, nullVal = None, testFreq = 1, for_profit = True):
     
